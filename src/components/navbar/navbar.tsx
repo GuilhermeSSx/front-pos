@@ -7,19 +7,19 @@ export default function Home() {
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <li className={styles.li}>
-            <Link href="/">Vendas</Link>
+            <Link className={styles.link} href="/">Vendas</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/pedidos">Lista de Pedidos</Link>
+            <Link className={styles.link}href="/pedidos">Lista de Pedidos</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/comandas">Lista de Comandas</Link>
+            <Link className={styles.link}href="/comandas">Lista de Comandas</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/estoque">Estoque</Link>
+            <Link className={styles.link}href="/estoque">Estoque</Link>
           </li>
           <li className={styles.li}>
-            <Link href="/despesas">Despesas</Link>
+            <Link className={styles.link}href="/despesas">Despesas</Link>
           </li>
         </ul>
       </nav>
